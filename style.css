@@ -223,14 +223,14 @@ body {
     align-items: center;
     justify-content: center;
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-    overflow: hidden;  /* 新增：防止图片溢出 */
-    border: 5px solid white;  /* 新增：白色边框 */
+    overflow: hidden;
+    border: 5px solid white; 
 }
 
 .avatar {
     width: 100%;
     height: 100%;
-    object-fit: cover;  /* 保持图片比例并填满容器 */
+    object-fit: cover;
 }
 
 /* Timeline */
@@ -815,3 +815,4 @@ body {
         padding: 20px;
     }
 }
+
