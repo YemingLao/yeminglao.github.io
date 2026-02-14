@@ -49,7 +49,7 @@ body {
     border-bottom: 3px solid var(--accent-color);
     display: flex;
     align-items: center;
-    gap: px;
+    gap: 15px;
 }
 
 .section-title i {
@@ -163,7 +163,7 @@ body {
 }
 
 .avatar-container {
-    width: 200px;
+    width: 220px;
     height: 280px;
     border-radius: 20px;
     overflow: hidden;
@@ -573,7 +573,7 @@ body {
     transform: translateY(-3px);
 }
 
-/* Image Grid */
+/* Image Grid - Teaching photos */
 .image-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -584,7 +584,7 @@ body {
 
 .image-grid img {
     width: 100%;
-    height: 200px;
+    height: 200px;        /* 已调整为200px，确保Teaching图片变高 */
     object-fit: cover;
     border-radius: 8px;
     background-color: #d0e0e0;
@@ -678,7 +678,3 @@ body {
         grid-template-columns: 1fr;
     }
 }
-
-
-
-
