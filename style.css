@@ -163,7 +163,7 @@ body {
 }
 
 .avatar-container {
-    width: 220px;
+    width: 200px;
     height: 280px;
     border-radius: 20px;
     overflow: hidden;
@@ -584,7 +584,7 @@ body {
 
 .image-grid img {
     width: 100%;
-    height: 120px;
+    height: 180px !important;
     object-fit: cover;
     border-radius: 8px;
     background-color: #d0e0e0;
@@ -678,6 +678,7 @@ body {
         grid-template-columns: 1fr;
     }
 }
+
 
 
 
