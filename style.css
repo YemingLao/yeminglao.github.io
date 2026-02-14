@@ -175,7 +175,7 @@ body {
 .avatar {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 /* Timeline */
@@ -584,7 +584,7 @@ body {
 
 .image-grid img {
     width: 100%;
-    height: 200px !important;
+    height: 120px !important;
     object-fit: cover;
     border-radius: 8px;
     background-color: #d0e0e0;
@@ -678,5 +678,6 @@ body {
         grid-template-columns: 1fr;
     }
 }
+
 
 
