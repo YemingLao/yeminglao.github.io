@@ -169,13 +169,13 @@ body {
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
     border: 5px solid white;
-    background-color: var(--light-color);
+    /* background-color: var(--light-color);
 }
 
 .avatar {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 /* Timeline */
@@ -584,7 +584,7 @@ body {
 
 .image-grid img {
     width: 100%;
-    height: 200px;        /* 已调整为200px，确保Teaching图片变高 */
+    height: 200px !important;
     object-fit: cover;
     border-radius: 8px;
     background-color: #d0e0e0;
@@ -678,3 +678,4 @@ body {
         grid-template-columns: 1fr;
     }
 }
+
