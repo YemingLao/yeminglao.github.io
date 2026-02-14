@@ -584,7 +584,7 @@ body {
 
 .image-grid img {
     width: 100%;
-    height: 100px;
+    height: 150px;
     object-fit: cover;
     border-radius: 8px;
     background-color: #d0e0e0;
@@ -678,3 +678,4 @@ body {
         grid-template-columns: 1fr;
     }
 }
+
